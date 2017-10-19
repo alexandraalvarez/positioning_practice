@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+}
+
+.fondo-verde{
+	background-color: green;
+	width: 1250px;
+	height: 650px;
+}
+.verde-borde{
+	border: 3px solid white;
+	width: 1180px;
+	height: 580px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	bottom: 30px;
+	right: 30px;
+}
+.arco-izq{
+	border: 3px solid white;
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	top: 130px;
+	right: 0px;
+}
+.arco-der{
+	border: 3px solid white;
+	width: 100px;
+	height: 300px;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+}
+.media-cancha{
+	width: 180px;
+    height: 180px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid white;
+    background: green;
+    position: absolute;
+    top: 180px;
+    left: 500px;
+}
+.pelota-cent{
+	width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;/*moz corresponde al navegador firefox */
+    -webkit-border-radius: 50%;/*webkit corresponde a navegadores vivaldi, safari, chrome, opera*/
+    border-radius: 50%;/*es el estándar para cualquier cosa*/
+    border: 3px solid black;
+    background: white;
+    position: absolute;
+    top: 100px;
+    right: 550px;
+}
+.pelota-izq{
+	width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid black;
+    background: white;
+    position: absolute;
+    bottom: 150px;
+    right: 110px;
+}
+.pelota-der{
+	width: 20px;
+    height: 20px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid black;
+    background: white;
+    position: absolute;
+    top: 130px;
+    left: 80px;
+}

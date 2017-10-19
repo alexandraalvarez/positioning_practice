@@ -1,0 +1,64 @@
+/*acá intentar usar porcentajes en vez de pixeles, para que sea compatible con pantalla de pc, tablet, celular*/
+/*cuando se usa floating, no todos los elementos siguen el color y otros efectos. Para solucionar, por ejemplo, que una imagen 
+entre dentro de un borde de el bloque, y en línea con el texo, se puede usar clearfix{overflow:auto}, como declaración de 
+class="clearfix" para el div padre*/
+/*clear:both, ordena las cosas que están flotando alrededor, nuevamente el ejemplo de la imagen fuera del borde del texto, 
+también lo ordena. Todos éstos tips vienen de W3school*/
+
+h2,h3{
+	text-align: center;
+}
+p{
+	text-align: justify;
+	margin: 8px;
+}
+
+.mono-par{
+	text-align: justify;
+	margin: 30px;
+}
+
+.title-1,h4{
+	background-color: #FACC2E;
+	border: 3px solid black; /*no pude aplicar % al border*/
+	text-align: center;
+	width: 49.2%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+img{
+	width: 120px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.before{
+	border: 3px solid black;
+	width: 180px;
+	height: 400px;
+	overflow: auto;
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.monopoly{
+	border: 3px solid black;
+	width: 250px;
+	height: 400px;
+	overflow: auto;
+	float: left;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.now{
+	border: 3px solid black;
+	width: 180px;
+	height: 400px;
+	overflow: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
